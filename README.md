@@ -31,16 +31,3 @@ This command runs the program with 4 processes to find all prime numbers up to 1
 
 ## Output
 The program outputs the elapsed time for the calculations to the standard output and writes the list of prime numbers to a text file named `<N>.txt`, where `N` is the input limit. For instance, if run with `N` as 100, the output file will be `100.txt`.
-
-## Error Handling
-If the program is run without the necessary command-line argument, it will prompt the user to provide the correct command format.
-
-## Notes
-- Ensure the MPI environment is properly set up on your system to successfully run the program.
-- The program utilizes dynamic memory allocation for storing prime numbers and requires effective memory management to handle larger values of `N`.
-
-## Authors
-- [Your Name or Team]
-
-## License
-Specify your licensing information here or indicate if the software is open source.
